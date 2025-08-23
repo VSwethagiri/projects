@@ -1,0 +1,48 @@
+body{
+    background: linear-gradient(to right, #f953c6,#b91d73);
+    font-family: 'Segoe UI',sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.form-container{
+    background:  white;
+    padding: 40px;
+    border-radius: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    width: 400px;
+}
+
+h2{
+    text-align: center;
+    color: #b91d73;
+}
+
+input, select, textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+}
+button{
+    background-color: #b91d73;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #9a185e;
+}
+.tab{
+    display: none;
+}
+.step-indicator{
+    text-align: center;
+    margin-top: 20px;
+}
